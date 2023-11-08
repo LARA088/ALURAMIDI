@@ -35,6 +35,11 @@ function tocaSomTrombeta() {
 document.querySelector('.tecla_trombeta').onclick=tocaSomTrombeta;
 
 function tocaSomDinheiro() {
-    document.querySelector('#som_tecla_trombeta').play();   
+    document.querySelector('#som_tecla_dinheiro').play();   
 }
-document.querySelector('.tecla_trombeta').onclick=tocaSomDinheiro;
+document.querySelector('.tecla_dinheiro').onclick=tocaSomDinheiro;
+
+function tocaSomVitoria() {
+    document.querySelector('#som_tecla_vitoria').play();   
+}
+document.querySelector('.tecla_vitoria').onclick=tocaSomVitoria;
