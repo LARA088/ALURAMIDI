@@ -39,7 +39,7 @@ function tocaSomDinheiro() {
 }
 document.querySelector('.tecla_dinheiro').onclick=tocaSomDinheiro;
 
-function tocaSomVitoria() {
-    document.querySelector('#som_tecla_vitoria').play();   
+function tocaSomAmor() {
+    document.querySelector('#som_tecla_amor').play();   
 }
-document.querySelector('.tecla_vitoria').onclick=tocaSomVitoria;
+document.querySelector('.tecla_amor').onclick=tocaSomAmor;
